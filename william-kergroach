@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page personnelle de [Votre Nom]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background: #555;
+            color: #fff;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            background: #fff;
+            margin: 2rem 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .publication {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        .publication img {
+            max-width: 150px;
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Page personnelle de [Votre Nom]</h1>
+    </header>
+    <nav>
+        <a href="#about">À propos de moi</a>
+        <a href="#publications">Publications</a>
+        <a href="#dissidence">Qu'est-ce que la dissidence ?</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <p>[Votre biographie ici. Parlez de votre parcours, vos intérêts et ce qui vous motive dans votre travail d'essayiste et de journaliste.]</p>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <div class="publication">
+                <img src="path/to/cover1.jpg" alt="Couverture de l'essai 1">
+                <div>
+                    <h3>Titre de l'essai 1</h3>
+                    <p>Une brève description de cet essai.</p>
+                </div>
+            </div>
+            <div class="publication">
+                <img src="path/to/cover2.jpg" alt="Couverture de l'essai 2">
+                <div>
+                    <h3>Titre de l'essai 2</h3>
+                    <p>Une brève description de cet essai.</p>
+                </div>
+            </div>
+            <div class="publication">
+                <img src="path/to/cover3.jpg" alt="Couverture de l'essai 3">
+                <div>
+                    <h3>Titre de l'essai 3</h3>
+                    <p>Une brève description de cet essai.</p>
+                </div>
+            </div>
+            <!-- Ajoutez autant de publications que nécessaire -->
+        </section>
+        <section id="dissidence">
+            <h2>Qu'est-ce que la dissidence ?</h2>
+            <p>La dissidence se définit par une opposition aux systèmes établis, aux normes politiques et sociales dominantes. Elle inclut les travaux des intellectuels dissidents, ceux qui remettent en question le politiquement correct, les récits imposés par les pouvoirs en place, notamment ceux construits par l'Empire américain après la Seconde Guerre mondiale. Les dissidents cherchent à exposer les vérités cachées et à offrir des perspectives alternatives souvent ignorées ou réprimées.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pour me contacter, veuillez envoyer un courriel à <a href="mailto:votreadresse@example.com">votreadresse@example.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 [Votre Nom]. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
